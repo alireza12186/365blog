@@ -55,7 +55,7 @@ body{
 .post-list{
   width: 100%; 
   display: flex; 
-  flex-direction: row; 
+  flex-direction: row-reverse; 
   flex-wrap: wrap; 
   justify-content: space-between; 
   align-items: center;
@@ -69,8 +69,8 @@ body{
   background: var(--bg-hover-color);
 }
 
-.post-list .post-title{width: 80%; color: var(--primary-font-color); font-weight: 600;}
-.post-list .post-date{width: 20%; text-align: right;}
+.post-list .post-title{width: 80%; color: var(--primary-font-color); font-weight: 600;text-align:right; direction:rtl;}
+.post-list .post-{width: 20%; text-align: left;}
 
 .post-header{
   width: 100%; 
